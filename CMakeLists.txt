@@ -1,0 +1,49 @@
+cmake_minimum_required(VERSION 3.7)
+
+# GLM dynamic library
+set(GLM_DYNAMIC_LIBRARY_ENABLE CACHE BOOL OFF)
+
+# GLM install
+set(GLM_INSTALL_ENABLE CACHE BOOL ON)
+
+# GLM static library
+set(GLM_STATIC_LIBRARY_ENABLE CACHE BOOL OFF)
+
+# GLM test
+set(GLM_TEST_ENABLE CACHE BOOL OFF)
+
+# Enable C++ 11
+set(GLM_TEST_ENABLE_CXX_11 CACHE BOOL OFF)
+
+# Enable C++ 14
+set(GLM_TEST_ENABLE_CXX_14 CACHE BOOL OFF)
+
+# Enable C++ 17
+set(GLM_TEST_ENABLE_CXX_17 CACHE BOOL OFF)
+
+# Enable C++ 98
+set(GLM_TEST_ENABLE_CXX_98 CACHE BOOL OFF)
+
+# Enable fast math optimizations
+set(GLM_TEST_ENABLE_FAST_MATH CACHE BOOL OFF)
+
+# Enable language extensions
+set(GLM_TEST_ENABLE_LANG_EXTENSIONS CACHE BOOL OFF)
+
+# Enable AVX optimizations
+set(GLM_TEST_ENABLE_SIMD_AVX CACHE BOOL OFF)
+
+# Enable AVX2 optimizations
+set(GLM_TEST_ENABLE_SIMD_AVX2 CACHE BOOL OFF)
+
+# Enable SSE2 optimizations
+set(GLM_TEST_ENABLE_SIMD_SSE2 CACHE BOOL OFF)
+
+# Enable SSE3 optimizations
+set(GLM_TEST_ENABLE_SIMD_SSE3 CACHE BOOL OFF)
+
+# Force 'pure' instructions
+set(GLM_TEST_FORCE_PURE CACHE BOOL OFF)
+
+
+SUBDIRS(glm)

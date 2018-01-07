@@ -8,7 +8,7 @@ if %INSTALL_PREFIX% == "" set INSTALL_PREFIX = "..\..\%COMPILER_TOOLSET%"
 
 if not exist build mkdir build
 
-copy CMakeLists.txt build/
+copy CMakeLists.txt build
 
 if exist build\glm GOTO doneClone
 

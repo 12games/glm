@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.7 FORCE)
+cmake_minimum_required(VERSION 3.7)
 
 # GLM dynamic library
 set(GLM_DYNAMIC_LIBRARY_ENABLE OFF CACHE BOOL FORCE)
